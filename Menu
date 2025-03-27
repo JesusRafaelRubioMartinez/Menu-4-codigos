@@ -54,7 +54,7 @@ public class ProgramaIntegrado {
         return scanner.nextInt();
     }
 
-    // ========== PRUEBA DE CORRIDAS (OPTIMIZADO) ==========
+    // ========== PRUEBA DE CORRIDAS  ==========
     private static void pruebaCorridas() {
         System.out.println("\n=== PRUEBA DE CORRIDAS ===");
         
@@ -103,7 +103,7 @@ public class ProgramaIntegrado {
         return corridas;
     }
 
-    // ========== PRUEBA KOLMOGOROV-SMIRNOV (OPTIMIZADO) ==========
+    // ========== PRUEBA KOLMOGOROV-SMIRNOV  ==========
     private static void pruebaKolmogorovSmirnov() {
         System.out.println("\n=== PRUEBA KOLMOGOROV-SMIRNOV ===");
         
@@ -152,7 +152,7 @@ public class ProgramaIntegrado {
         }
     }
 
-    // ========== SIMULACIÓN DE PORTAFOLIO (OPTIMIZADO) ==========
+    // ========== SIMULACIÓN DE PORTAFOLIO  ==========
     private static void simulacionPortafolio() {
         System.out.println("\n=== SIMULACIÓN DE PORTAFOLIO ===");
         
@@ -208,7 +208,7 @@ public class ProgramaIntegrado {
         System.out.printf("Percentil 90: %.2f%n", finales[simulaciones*9/10]);
     }
 
-    // ========== PRUEBA DE POKER (OPTIMIZADO) ==========
+    // ========== PRUEBA DE POKER  ==========
     private static void pruebaPoker() {
         System.out.println("\n=== PRUEBA DE POKER ===");
         
